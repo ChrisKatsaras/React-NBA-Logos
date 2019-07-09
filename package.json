@@ -1,0 +1,25 @@
+{
+  "name": "nba-logos",
+  "version": "1.0.0",
+  "description": "NBA team logos",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "keywords": [
+    "nba"
+  ],
+  "author": "Christopher Katsaras",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">= 15"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0"
+  }
+}
