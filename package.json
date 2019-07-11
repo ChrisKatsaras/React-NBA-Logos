@@ -1,13 +1,12 @@
 {
-  "name": "nba-logos",
+  "name": "react-nba-logos",
   "version": "1.0.0",
-  "description": "NBA team logos",
+  "description": "React components for NBA team logos",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
-    "build": "babel src --out-dir dist --copy-files"
+    "build": "rm -rf dist && babel src --out-dir dist --copy-files"
   },
   "keywords": [
     "nba"
@@ -15,11 +14,18 @@
   "author": "Christopher Katsaras",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">= 15"
+    "react": "^16.8.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.0"
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
