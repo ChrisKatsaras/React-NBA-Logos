@@ -63,7 +63,7 @@ DEN.propTypes = {
 };
 
 DEN.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default DEN;

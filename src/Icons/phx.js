@@ -42,7 +42,7 @@ PHX.propTypes = {
 };
 
 PHX.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default PHX;

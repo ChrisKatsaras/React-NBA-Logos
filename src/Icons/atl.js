@@ -37,7 +37,7 @@ ATL.propTypes = {
 };
 
 ATL.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default ATL;

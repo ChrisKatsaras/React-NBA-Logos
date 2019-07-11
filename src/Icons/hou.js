@@ -36,7 +36,7 @@ HOU.propTypes = {
 };
 
 HOU.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default HOU;

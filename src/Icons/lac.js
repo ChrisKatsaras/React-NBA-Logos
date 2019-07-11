@@ -48,7 +48,7 @@ LAC.propTypes = {
 };
 
 LAC.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default LAC;

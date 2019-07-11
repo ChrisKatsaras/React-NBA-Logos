@@ -35,7 +35,7 @@ CLE.propTypes = {
 };
 
 CLE.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default CLE;

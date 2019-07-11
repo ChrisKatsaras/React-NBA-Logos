@@ -77,7 +77,7 @@ OKC.propTypes = {
 };
 
 OKC.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default OKC;

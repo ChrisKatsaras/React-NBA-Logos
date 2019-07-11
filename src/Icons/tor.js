@@ -86,7 +86,7 @@ TOR.propTypes = {
 };
 
 TOR.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default TOR;

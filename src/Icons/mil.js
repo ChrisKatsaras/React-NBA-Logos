@@ -34,7 +34,7 @@ MIL.propTypes = {
 };
 
 MIL.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default MIL;

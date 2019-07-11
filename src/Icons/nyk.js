@@ -51,7 +51,7 @@ NYK.propTypes = {
 };
 
 NYK.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default NYK;

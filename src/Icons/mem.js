@@ -38,7 +38,7 @@ MEM.propTypes = {
 };
 
 MEM.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default MEM;

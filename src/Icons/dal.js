@@ -62,7 +62,7 @@ DAL.propTypes = {
 };
 
 DAL.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default DAL;

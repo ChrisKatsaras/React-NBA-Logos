@@ -52,7 +52,7 @@ SAC.propTypes = {
 };
 
 SAC.defaultProps = {
-  size: '24'
+  size: '100'
 };
 
 export default SAC;
