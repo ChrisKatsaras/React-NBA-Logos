@@ -1,4 +1,4 @@
-#React NBA Logos
+# React NBA Logos
 
 >React components for NBA team logos
 
