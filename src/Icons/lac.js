@@ -16,7 +16,7 @@ const LAC = props => {
       <defs>
         <path id="A" d="M0 100h100V0H0z" />
       </defs>
-      <g transform="translate(25 25)" fill-rule="evenodd">
+      <g transform="translate(25 25)" fillRule="evenodd">
         <path
           d="M0 50C0 22.386 22.386 0 50 0s50 22.386 50 50-22.386 50-50 50S0 77.614 0 50"
           fill="#fff"

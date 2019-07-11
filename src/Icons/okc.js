@@ -16,7 +16,7 @@ const OKC = props => {
       <defs>
         <path id="A" d="M149.99 88.063H0V.092h149.99v87.97z" />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(0 31.22)">
           <mask id="B" fill="#fff">
             <use xlinkHref="#A" />

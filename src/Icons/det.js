@@ -16,7 +16,7 @@ const DET = props => {
       <defs>
         <path id="A" d="M100 0v100H0V0z" />
       </defs>
-      <g transform="translate(25 25)" fill-rule="evenodd">
+      <g transform="translate(25 25)" fillRule="evenodd">
         <mask id="B" fill="#fff">
           <use xlinkHref="#A" />
         </mask>

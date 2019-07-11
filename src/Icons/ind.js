@@ -16,7 +16,7 @@ const IND = props => {
       <defs>
         <path id="A" d="M99.998.038H.001V92.93h99.997V.038z" />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(25 28.06)">
           <mask id="B" fill="#fff">
             <use xlinkHref="#A" />

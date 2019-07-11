@@ -17,7 +17,7 @@ const CHA = props => {
         <path id="A" d="M.001 113.78h111.91V.005H.001z" />
         <path id="B" d="M0 113.8h111.91V.013H0z" />
       </defs>
-      <g transform="translate(19 18)" fill="none" fill-rule="evenodd">
+      <g transform="translate(19 18)" fill="none" fillRule="evenodd">
         <g transform="translate(0 .009)">
           <mask id="C" fill="#fff">
             <use xlinkHref="#A" />

@@ -16,7 +16,7 @@ const ORL = props => {
       <defs>
         <path id="A" d="M129.784 75.68V.01H.001v75.67h129.783z" />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(10 37.027)">
           <mask id="B" fill="#fff">
             <use xlinkHref="#A" />

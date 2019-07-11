@@ -13,7 +13,7 @@ const NOP = props => {
       fill="none"
       fillRule="evenodd"
     >
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(0 45.11)">
           <mask id="S" fill="#fff">
             <path id="A" d="M.001 59.362h149.773V.078H.001z" />

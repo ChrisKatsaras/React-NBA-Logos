@@ -16,7 +16,7 @@ const CHI = props => {
       <defs>
         <path id="A" d="M109.973.063H.001v110.66h109.972V.063z" />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(20 15.164)">
           <mask id="B" fill="#fff">
             <use xlinkHref="#A" />

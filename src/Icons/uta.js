@@ -16,7 +16,7 @@ const UTA = props => {
       <defs>
         <path id="A" d="M120.346 80.052V.086H0v79.966h120.345z" />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(15 34.195)">
           <mask id="B" fill="#fff">
             <use xlinkHref="#A" />

@@ -18,7 +18,7 @@ const PHI = props => {
         <path id="B" d="M0 .08h46.163v65.796H0z" />
         <path id="C" d="M.063 0h6.82v6.442H.063z" />
       </defs>
-      <g transform="translate(33 24)" fill="none" fill-rule="evenodd">
+      <g transform="translate(33 24)" fill="none" fillRule="evenodd">
         <g transform="translate(38.632 37.188)">
           <mask id="D" fill="#fff">
             <use xlinkHref="#A" />

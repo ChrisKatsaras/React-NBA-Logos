@@ -16,7 +16,7 @@ const GSW = props => {
       <defs>
         <path id="A" d="M99.807.192H0V100.21h99.807V.192z" />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(25 25.039)">
           <mask id="B" fill="#fff">
             <use xlinkHref="#A" />
