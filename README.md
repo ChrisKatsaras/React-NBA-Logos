@@ -15,7 +15,7 @@ import React from 'react';
 import { TOR } from 'react-nba-logos';
 
 const Example = () => {
-	return <TOR /> // Loads the Toronto Raptors Logo!
+	return <TOR /> // Loads the Toronto Raptors logo!
 };
 
 export default Example;
@@ -28,7 +28,7 @@ import React from 'react';
 import * as NBAIcons from 'react-nba-logos';
 
 const Example = () => {
-	return <NBAIcons.TOR /> // Loads the Toronto Raptors Logo!
+	return <NBAIcons.TOR /> // Loads the Toronto Raptors logo!
 };
 
 export default Example;
@@ -46,7 +46,7 @@ const Example = () => {
 	return (
 		<div>
 			<TOR size={60} />
-	      	<TOR /> // Default of 100px
+	      		<TOR /> // Default of 100px
 	   		<TOR size={140} />
 	   	</div>
 	);
