@@ -11,6 +11,10 @@
   "keywords": [
     "nba"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisKatsaras/react-nba-logos.git"
+  },
   "author": "Christopher Katsaras",
   "license": "ISC",
   "peerDependencies": {
