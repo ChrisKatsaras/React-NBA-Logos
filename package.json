@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
-    "build": "rm -rf dist && babel src --out-dir dist --copy-files"
+    "build": "rm -rf dist && babel src --out-dir dist --copy-files",
+    "build-prod": "rm -rf dist && babel src --out-dir dist --copy-files && rm -rf src"
   },
   "keywords": [
     "nba"
