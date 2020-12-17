@@ -19,7 +19,7 @@ const UTA = (props) => {
       <g fill="none" fillRule="evenodd">
         <g transform="translate(15 34.195)">
           <mask id="B_UTA" fill="#fff">
-            <use xlinkHref="#A" />
+            <use xlinkHref="#A_UTA" />
           </mask>
           <path
             d="M43.604 43.647L62.607.085h57.74l-10.462 23.993h-48.77L47.3 55.763v1.12c0 10.094-8.52 23.168-23.655 23.168C10.608 80.052 0 69.423 0 56.372c0-13.06 10.608-23.676 23.643-23.676 8.23 0 15.94 4.444 19.96 10.95"

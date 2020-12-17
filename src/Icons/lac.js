@@ -31,7 +31,7 @@ const LAC = (props) => {
           fill="#1d428a"
         />
         <mask id="B_LAC" fill="#fff">
-          <use xlinkHref="#A" />
+          <use xlinkHref="#A_LAC" />
         </mask>
         <path
           d="M52.72 47.224h2.762V35.622H52.72v11.602zm8.29 15.618l.01-32.673H47.25l-.134 32.673h5.513l.09-10.186h2.803l-.04 10.186h5.528z"

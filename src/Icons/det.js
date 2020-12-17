@@ -18,7 +18,7 @@ const DET = (props) => {
       </defs>
       <g transform="translate(25 25)" fillRule="evenodd">
         <mask id="B_DET" fill="#fff">
-          <use xlinkHref="#A" />
+          <use xlinkHref="#A_DET" />
         </mask>
         <path
           d="M98 50c0 26.51-21.49 48-48 48S2 76.51 2 50 23.49 2 50 2s48 21.5 48 48"

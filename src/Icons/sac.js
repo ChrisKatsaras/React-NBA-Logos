@@ -30,7 +30,7 @@ const SAC = (props) => {
           fill="#5a2c81"
         />
         <mask id="B_SAC" fill="#fff">
-          <use xlinkHref="#A" />
+          <use xlinkHref="#A_SAC" />
         </mask>
         <path
           mask="url(#B)"

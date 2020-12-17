@@ -19,7 +19,7 @@ const GSW = (props) => {
       <g fill="none" fillRule="evenodd">
         <g transform="translate(25 25.039)">
           <mask id="B_GSW" fill="#fff">
-            <use xlinkHref="#A" />
+            <use xlinkHref="#A_GSW" />
           </mask>
           <path
             d="M49.905.192C22.388.192-.001 22.627-.001 50.204s22.388 50.007 49.905 50.007 49.902-22.432 49.902-50.007S77.42.192 49.905.192"

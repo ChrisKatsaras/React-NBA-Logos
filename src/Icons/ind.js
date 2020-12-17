@@ -19,7 +19,7 @@ const IND = (props) => {
       <g fill="none" fillRule="evenodd">
         <g transform="translate(25 28.06)">
           <mask id="B_IND" fill="#fff">
-            <use xlinkHref="#A" />
+            <use xlinkHref="#A_IND" />
           </mask>
           <path
             d="M92.078 12.997C85.172 4.658 75.266.057 64.18.037L20.415.04.001 92.908l39.515.022 5.203-21.695 16.767.003c12.46 0 22.72-4.307 29.635-12.427 12.797-13.95 10.537-34.247.957-45.815"

@@ -28,9 +28,9 @@ const BOS = (props) => {
         />
         <g transform="translate(3 3)">
           <mask id="D_BOS" fill="#fff">
-            <use xlinkHref="#A" />
+            <use xlinkHref="#A_BOS" />
           </mask>
-          <use xlinkHref="#C" fill="#fff" mask="url(#D)" />
+          <use xlinkHref="#C_BOX" fill="#fff" mask="url(#D)" />
           <mask id="E_BOS" fill="#fff">
             <use xlinkHref="#B" />
           </mask>
