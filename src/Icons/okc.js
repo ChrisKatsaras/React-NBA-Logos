@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const OKC = props => {
+const OKC = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,11 +14,11 @@ const OKC = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M149.99 88.063H0V.092h149.99v87.97z" />
+        <path id="A_OKC" d="M149.99 88.063H0V.092h149.99v87.97z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(0 31.22)">
-          <mask id="B" fill="#fff">
+          <mask id="B_OKC" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -73,11 +73,11 @@ const OKC = props => {
 };
 
 OKC.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 OKC.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default OKC;

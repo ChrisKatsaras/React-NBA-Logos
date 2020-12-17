@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SAC = props => {
+const SAC = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,7 +14,7 @@ const SAC = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M.003 99.666h87.19V.185H.003z" />
+        <path id="A_SAC" d="M.003 99.666h87.19V.185H.003z" />
       </defs>
       <g transform="translate(31 25)" fillRule="evenodd">
         <path
@@ -29,7 +29,7 @@ const SAC = props => {
           d="M45.058 43.12c-.07 0-.136.007-.205.017l-.007-.017H30.66v17.146h5.98V46.5h4.495v13.776h5.7v-14.77c0-1.3-.797-2.376-1.776-2.376m4.656 0h-.357v14.703c0 1.312.8 2.373 1.766 2.373.003 0 .013-.003.023-.003v.003H65.5v-10.36l-5.746-.007v7.035h-4.492V46.408H65.5V43.12H49.715zm-34.975.004l-3.255 6.906h-1.88v-6.906H3.652V60.26h5.954v-6.903h1.88l3.255 6.903h5.948l-4.194-8.566 4.194-8.57z"
           fill="#5a2c81"
         />
-        <mask id="B" fill="#fff">
+        <mask id="B_SAC" fill="#fff">
           <use xlinkHref="#A" />
         </mask>
         <path
@@ -48,11 +48,11 @@ const SAC = props => {
 };
 
 SAC.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 SAC.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default SAC;

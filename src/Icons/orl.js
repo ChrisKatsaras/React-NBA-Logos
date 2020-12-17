@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ORL = props => {
+const ORL = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,11 +14,11 @@ const ORL = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M129.784 75.68V.01H.001v75.67h129.783z" />
+        <path id="A_ORL" d="M129.784 75.68V.01H.001v75.67h129.783z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(10 37.027)">
-          <mask id="B" fill="#fff">
+          <mask id="B_ORL" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -57,11 +57,11 @@ const ORL = props => {
 };
 
 ORL.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 ORL.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default ORL;

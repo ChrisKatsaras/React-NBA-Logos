@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ATL = props => {
+const ATL = (props) => {
   const { size } = props;
   return (
     <svg
@@ -13,7 +13,7 @@ const ATL = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M0 99.755h99.88V.1H0z" />
+        <path id="A_ATL" d="M0 99.755h99.88V.1H0z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(25 25.02)">
@@ -33,11 +33,11 @@ const ATL = props => {
 };
 
 ATL.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 ATL.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default ATL;

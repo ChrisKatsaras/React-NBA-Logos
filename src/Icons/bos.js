@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const BOS = props => {
+const BOS = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,10 +14,10 @@ const BOS = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M0 0h93.554v104H0z" />
-        <path id="B" d="M0 0h93.554v104H0z" />
+        <path id="A_BOS" d="M0 0h93.554v104H0z" />
+        <path id="B_BOS" d="M0 0h93.554v104H0z" />
         <path
-          id="C"
+          id="C_BOS"
           d="M93.554 48.9c0-12.494-4.867-24.24-13.702-33.075C72.222 8.194 62.42 3.528 51.84 2.398c-.245-.244-.52-.47-.832-.67-3.745-2.41-6.87-.62-9.038.433l-.543.27c-4.08.466-8 1.46-11.693 2.91-.436-.653-.94-1.27-1.51-1.84C25.965 1.245 22.96 0 19.763 0c-6.6 0-11.967 5.37-11.967 11.968 0 2.765.933 5.387 2.648 7.507C3.917 27.518 0 37.76 0 48.9c0 12.495 4.866 24.242 13.7 33.077 4.315 4.314 9.328 7.68 14.78 9.997-.304 2.472.097 4.15.55 4.837-.688.58-.977.94-1.086 1.6-1.084 1.483 1.555 3.363 2.64 4.194 2.228 1.708 3.4 1.41 5.134 1.34 2.142-.1 4.157-2.605 5.316-4.23 2.313-.325 2.747.036 2.82.325a12.14 12.14 0 0 0 3.109-.868c3.124-1.315 2.24-2.927 1.917-3.217-.085-.074-.153-.18-.22-.305 7.416-.292 14.524-2.303 20.867-5.843a8.36 8.36 0 0 1 .682.87c.687 1.013 1.048 4.302 1.193 6s.434 2.858 1.265 5.53 1.157.724 1.194 0 .18-3.325.072-5.206-.145-4.59.217-5.748-.29-1.446-.47-1.662 0-.3-.47-1.772a2.3 2.3 0 0 1-.064-.257c2.38-1.632 4.627-3.49 6.7-5.575a46.47 46.47 0 0 0 13.702-33.077"
         />
       </defs>
@@ -27,11 +27,11 @@ const BOS = props => {
           fill="#fefefe"
         />
         <g transform="translate(3 3)">
-          <mask id="D" fill="#fff">
+          <mask id="D_BOS" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <use xlinkHref="#C" fill="#fff" mask="url(#D)" />
-          <mask id="E" fill="#fff">
+          <mask id="E_BOS" fill="#fff">
             <use xlinkHref="#B" />
           </mask>
           <use xlinkHref="#C" fill="#061922" mask="url(#E)" />
@@ -88,11 +88,11 @@ const BOS = props => {
 };
 
 BOS.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 BOS.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default BOS;

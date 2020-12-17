@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const UTA = props => {
+const UTA = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,11 +14,11 @@ const UTA = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M120.346 80.052V.086H0v79.966h120.345z" />
+        <path id="A_UTA" d="M120.346 80.052V.086H0v79.966h120.345z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(15 34.195)">
-          <mask id="B" fill="#fff">
+          <mask id="B_UTA" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -65,11 +65,11 @@ const UTA = props => {
 };
 
 UTA.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 UTA.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default UTA;

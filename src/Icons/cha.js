@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CHA = props => {
+const CHA = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,12 +14,12 @@ const CHA = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M.001 113.78h111.91V.005H.001z" />
-        <path id="B" d="M0 113.8h111.91V.013H0z" />
+        <path id="A_CHA" d="M.001 113.78h111.91V.005H.001z" />
+        <path id="B_CHA" d="M0 113.8h111.91V.013H0z" />
       </defs>
       <g transform="translate(19 18)" fill="none" fillRule="evenodd">
         <g transform="translate(0 .009)">
-          <mask id="C" fill="#fff">
+          <mask id="C_CHA" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -40,7 +40,7 @@ const CHA = props => {
           d="M53.106 39.57s-1.55-1.025-1.8-3.205c0 0-2 3.368 1.8 3.205m5.847 0s1.55-1.025 1.8-3.205c0 0 2.013 3.368-1.8 3.205m-1.14 44.45c-.278-.288-.682-.623-1.92-.625-1.167-.003-1.574.296-1.914.573l1.995 7.888 1.84-7.837zm13.185-34.653v2.888h-.97v-2.888h-.804v-.825H71.8v.825zm-4.515 0v2.888H65.5v-2.888h-.804v-.825h2.58v.825z"
           fill="#fefefe"
         />
-        <mask id="D" fill="#fff">
+        <mask id="D_CHA" fill="#fff">
           <use xlinkHref="#B" />
         </mask>
         <g fill="#fefefe">
@@ -64,11 +64,11 @@ const CHA = props => {
 };
 
 CHA.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 CHA.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default CHA;

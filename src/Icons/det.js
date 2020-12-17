@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const DET = props => {
+const DET = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,10 +14,10 @@ const DET = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M100 0v100H0V0z" />
+        <path id="A_DET" d="M100 0v100H0V0z" />
       </defs>
       <g transform="translate(25 25)" fillRule="evenodd">
-        <mask id="B" fill="#fff">
+        <mask id="B_DET" fill="#fff">
           <use xlinkHref="#A" />
         </mask>
         <path
@@ -44,11 +44,11 @@ const DET = props => {
 };
 
 DET.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 DET.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default DET;

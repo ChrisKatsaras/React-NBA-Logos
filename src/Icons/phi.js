@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const PHI = props => {
+const PHI = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,13 +14,13 @@ const PHI = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M.103.043H44.43v64.644H.103z" />
-        <path id="B" d="M0 .08h46.163v65.796H0z" />
-        <path id="C" d="M.063 0h6.82v6.442H.063z" />
+        <path id="A_PHI" d="M.103.043H44.43v64.644H.103z" />
+        <path id="B_PHI" d="M0 .08h46.163v65.796H0z" />
+        <path id="C_PHI" d="M.063 0h6.82v6.442H.063z" />
       </defs>
       <g transform="translate(33 24)" fill="none" fillRule="evenodd">
         <g transform="translate(38.632 37.188)">
-          <mask id="D" fill="#fff">
+          <mask id="D_PHI" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -30,7 +30,7 @@ const PHI = props => {
           />
         </g>
         <g transform="translate(0 36.125)">
-          <mask id="E" fill="#fff">
+          <mask id="E_PHI" fill="#fff">
             <use xlinkHref="#B" />
           </mask>
           <path
@@ -52,11 +52,11 @@ const PHI = props => {
 };
 
 PHI.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 PHI.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default PHI;

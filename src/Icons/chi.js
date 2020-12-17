@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CHI = props => {
+const CHI = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,11 +14,11 @@ const CHI = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M109.973.063H.001v110.66h109.972V.063z" />
+        <path id="A_CHI" d="M109.973.063H.001v110.66h109.972V.063z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(20 15.164)">
-          <mask id="B" fill="#fff">
+          <mask id="B_CHI" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -49,11 +49,11 @@ const CHI = props => {
 };
 
 CHI.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 CHI.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default CHI;

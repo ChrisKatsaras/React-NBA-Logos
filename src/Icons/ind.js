@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const IND = props => {
+const IND = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,11 +14,11 @@ const IND = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M99.998.038H.001V92.93h99.997V.038z" />
+        <path id="A_IND" d="M99.998.038H.001V92.93h99.997V.038z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(25 28.06)">
-          <mask id="B" fill="#fff">
+          <mask id="B_IND" fill="#fff">
             <use xlinkHref="#A" />
           </mask>
           <path
@@ -45,11 +45,11 @@ const IND = props => {
 };
 
 IND.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 IND.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default IND;
