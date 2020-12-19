@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ORL = props => {
+const ORL = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,17 +14,17 @@ const ORL = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M129.784 75.68V.01H.001v75.67h129.783z" />
+        <path id="A_ORL" d="M129.784 75.68V.01H.001v75.67h129.783z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(10 37.027)">
-          <mask id="B" fill="#fff">
-            <use xlinkHref="#A" />
+          <mask id="B_ORL" fill="#fff">
+            <use xlinkHref="#A_ORL" />
           </mask>
           <path
             d="M112.497 18.568l3.106-1.334 3.334-1.396-10.928-3.545L105.382.01l-6.61 9.884L87.57 7.04l3.765 4.893c-14.11-1.793-29.78-.47-43.854 3.722l.93-2.92-2.405.69C26.84 18.92 10.066 33.846 2.226 52.373L.001 57.636l4.33-3.724c9.367-8.046 19.034-16.352 33.065-20.8l-3.9 9.094 3.41-1.868c3.08-1.688 6.555-2.985 10.264-3.88l5.007 1.72c7.84 2.687 14.645 5.016 21.33 9.292-.05 7.293 2.908 14.528 8.186 19.96 5.182 5.33 11.943 8.253 19.06 8.253h.212c16.34-.123 25.974-12.156 28.275-24.02 2.067-10.667-1.213-25.368-16.73-33.093"
             fill="#fefefe"
-            mask="url(#B)"
+            mask="url(#B_ORL)"
           />
         </g>
         <path
@@ -57,11 +57,11 @@ const ORL = props => {
 };
 
 ORL.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 ORL.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default ORL;

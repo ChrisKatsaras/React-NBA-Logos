@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const GSW = props => {
+const GSW = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,17 +14,17 @@ const GSW = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M99.807.192H0V100.21h99.807V.192z" />
+        <path id="A_GSW" d="M99.807.192H0V100.21h99.807V.192z" />
       </defs>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(25 25.039)">
-          <mask id="B" fill="#fff">
-            <use xlinkHref="#A" />
+          <mask id="B_GSW" fill="#fff">
+            <use xlinkHref="#A_GSW" />
           </mask>
           <path
             d="M49.905.192C22.388.192-.001 22.627-.001 50.204s22.388 50.007 49.905 50.007 49.902-22.432 49.902-50.007S77.42.192 49.905.192"
             fill="#fefefe"
-            mask="url(#B)"
+            mask="url(#B_GSW)"
           />
         </g>
         <path
@@ -45,11 +45,11 @@ const GSW = props => {
 };
 
 GSW.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 GSW.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default GSW;

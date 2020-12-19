@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const LAC = props => {
+const LAC = (props) => {
   const { size } = props;
   return (
     <svg
@@ -14,7 +14,7 @@ const LAC = props => {
       fillRule="evenodd"
     >
       <defs>
-        <path id="A" d="M0 100h100V0H0z" />
+        <path id="A_LAC" d="M0 100h100V0H0z" />
       </defs>
       <g transform="translate(25 25)" fillRule="evenodd">
         <path
@@ -30,13 +30,13 @@ const LAC = props => {
           d="M68.222 43.457V27.115c0-2.45-.986-3.448-3.403-3.448H35.976c-2.386 0-3.36 1-3.36 3.448v45.93c0 2.448.974 3.447 3.36 3.447H64.82c2.417 0 3.403-1 3.403-3.447v-16.36h-5.715v14.792H38.288V28.683h24.218v14.774h5.715z"
           fill="#1d428a"
         />
-        <mask id="B" fill="#fff">
-          <use xlinkHref="#A" />
+        <mask id="B_LAC" fill="#fff">
+          <use xlinkHref="#A_LAC" />
         </mask>
         <path
           d="M52.72 47.224h2.762V35.622H52.72v11.602zm8.29 15.618l.01-32.673H47.25l-.134 32.673h5.513l.09-10.186h2.803l-.04 10.186h5.528z"
           fill="#c8102e"
-          mask="url(#B)"
+          mask="url(#B_LAC)"
         />
       </g>
     </svg>
@@ -44,11 +44,11 @@ const LAC = props => {
 };
 
 LAC.propTypes = {
-  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 LAC.defaultProps = {
-  size: '100'
+  size: '100',
 };
 
 export default LAC;
