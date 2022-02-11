@@ -12,7 +12,10 @@ const ORL = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Orlando Magic</title>
       <defs>
         <path id="A_ORL" d="M129.784 75.68V.01H.001v75.67h129.783z" />
       </defs>

@@ -12,7 +12,10 @@ const BOS = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Boston Celtics</title>
       <defs>
         <path id="A_BOS" d="M0 0h93.554v104H0z" />
         <path id="B_BOS" d="M0 0h93.554v104H0z" />

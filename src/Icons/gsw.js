@@ -12,7 +12,10 @@ const GSW = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Golden State Warriors</title>
       <defs>
         <path id="A_GSW" d="M99.807.192H0V100.21h99.807V.192z" />
       </defs>

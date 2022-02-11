@@ -12,7 +12,10 @@ const NOP = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">New Orleans Pelicans</title>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(0 45.11)">
           <mask id="S_NOP" fill="#fff">

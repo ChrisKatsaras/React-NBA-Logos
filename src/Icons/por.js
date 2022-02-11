@@ -12,7 +12,10 @@ const POR = props => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Portland Trail Blazers</title>
       <g fill="none" fillRule="evenodd">
         <path
           fill="#061922"

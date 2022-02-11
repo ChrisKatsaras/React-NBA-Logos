@@ -12,7 +12,10 @@ const CHI = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Chicago Bulls</title>
       <defs>
         <path id="A_CHI" d="M109.973.063H.001v110.66h109.972V.063z" />
       </defs>

@@ -12,7 +12,10 @@ const IND = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Indiana Pacers</title>
       <defs>
         <path id="A_IND" d="M99.998.038H.001V92.93h99.997V.038z" />
       </defs>

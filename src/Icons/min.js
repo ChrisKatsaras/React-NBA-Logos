@@ -12,7 +12,10 @@ const MIN = props => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Minnesota Timberwolves</title>
       <path
         d="M75 123c-20.414 0-38.636-12.965-45.344-32.26-8.676-24.998 4.603-52.395 29.6-61.072C64.355 27.897 69.65 27 75 27c20.42 0 38.64 12.964 45.343 32.26l.228.653-.006.007c8.223 24.817-5.037 51.813-29.815 60.413C85.647 122.103 80.35 123 75 123"
         stroke="#fff"
