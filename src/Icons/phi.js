@@ -12,7 +12,10 @@ const PHI = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Philadelphia 76ers</title>
       <defs>
         <path id="A_PHI" d="M.103.043H44.43v64.644H.103z" />
         <path id="B_PHI" d="M0 .08h46.163v65.796H0z" />

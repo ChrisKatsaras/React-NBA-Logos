@@ -11,7 +11,10 @@ const WAS = props => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Washington Wizards</title>
       <path
         d="M74.84 26.282h-.085c-26.834.003-48.6 21.75-48.647 48.603v.085c.003 26.86 21.744 48.647 48.593 48.68h.066c26.84-.01 48.603-21.76 48.637-48.625v-.063c-.006-26.848-21.73-48.628-48.565-48.68"
         fill="#fefefe"

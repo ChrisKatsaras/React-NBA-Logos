@@ -12,7 +12,10 @@ const UTA = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Utah Jazz</title>
       <defs>
         <path id="A_UTA" d="M120.346 80.052V.086H0v79.966h120.345z" />
       </defs>

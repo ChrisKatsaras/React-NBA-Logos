@@ -11,7 +11,10 @@ const ATL = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Atlanta Hawks</title>
       <defs>
         <path id="A_ATL" d="M0 99.755h99.88V.1H0z" />
       </defs>

@@ -12,7 +12,10 @@ const CHA = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Charlotte Hornets</title>
       <defs>
         <path id="A_CHA" d="M.001 113.78h111.91V.005H.001z" />
         <path id="B_CHA" d="M0 113.8h111.91V.013H0z" />

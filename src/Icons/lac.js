@@ -12,7 +12,10 @@ const LAC = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Los Angeles Clippers</title>
       <defs>
         <path id="A_LAC" d="M0 100h100V0H0z" />
       </defs>

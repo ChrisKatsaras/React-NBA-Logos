@@ -12,7 +12,10 @@ const OKC = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Oklahoma City Thunder</title>
       <defs>
         <path id="A_OKC" d="M149.99 88.063H0V.092h149.99v87.97z" />
       </defs>

@@ -12,7 +12,10 @@ const DEN = props => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Denver Nuggets</title>
       <path
         d="M75.513 27c12.923 0 25.1 5.048 34.27 14.23C118.945 50.4 124 62.577 124 75.49c0 26.756-21.74 48.51-48.487 48.51-12.954 0-25.136-5.038-34.3-14.223C32.06 100.612 27 88.434 27 75.49c0-12.912 5.06-25.1 14.203-34.26C50.377 32.048 62.56 27 75.513 27"
         stroke="#fff"

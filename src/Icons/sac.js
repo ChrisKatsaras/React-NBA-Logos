@@ -12,7 +12,10 @@ const SAC = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Sacramento Kings</title>
       <defs>
         <path id="A_SAC" d="M.003 99.666h87.19V.185H.003z" />
       </defs>

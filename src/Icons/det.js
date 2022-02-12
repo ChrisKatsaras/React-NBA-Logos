@@ -12,7 +12,10 @@ const DET = (props) => {
       viewBox="0 0 150 150"
       fill="none"
       fillRule="evenodd"
+      role="img"
+      aria-describedby='title'
     >
+      <title id="title">Detroit Pistons</title>
       <defs>
         <path id="A_DET" d="M100 0v100H0V0z" />
       </defs>
